@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Air Plant Game</title>
+	<meta charset="utf-8">
+
+	<style>
+		body {
+			background: #ddd;
+		}
+		#main {
+			width: 500px;
+			height: 650px;
+			background-color:#000;
+			position: relative;
+			overflow: hidden;
+		}
+		canvas {
+	        width: 500px;
+	        height:100vh;
+	        margin: auto;
+	        z-index: 10;
+		}
+		#tip-area {
+			width:500px;
+			z-index: 9999;
+			height: 120px;
+			opacity: .5;
+			position: absolute;
+			top: 290px;
+			left:0;
+			
+			background-color: #ccc;
+			color: #0c0b0b;
+			font-size: 4.2em;
+			text-align: center;
+			line-height: 120px;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<div id="tip-area">GAME OVER!</div>
+	</div>
+
+</body>
+<script src="./script/stage.js"></script>
+<script src="./script/changeBg.js"></script>
+<script src="./script/enemy.js"></script>
+<script src="./script/aircraft.js"></script>
+<script src="./script/bullet.js"></script>
+<script src="./script/fried.js"></script>
+<script src="./script/boom.js"></script>
+<script src="./script/main.js"></script>
+</html>
