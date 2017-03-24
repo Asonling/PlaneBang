@@ -3,7 +3,7 @@ plane_img.src = 'image/own.png';
 
 function Plane(x, y, speed) {
 	this.dx = x || 210;
-	this.dy = y || 500;
+	this.dy = y || 350;
 	this.speed = speed || 10;
 	this.w = plane_img.width;
 	this.h = plane_img.height;
